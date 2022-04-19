@@ -1,0 +1,140 @@
+:root{
+	--montserrat: 'Montserrat', sans-serif;
+	--openSans: 'Open Sans', sans-serif;
+	--ubuntu: 'Ubuntu', sans-serif;
+	--black: #000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #000;
+	font-size: 20px;
+	padding: 0 auto;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	background: #fff;
+	height: 100%;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	color: #7F00FF
+}
+
+p{
+	font-family: var(--montserrat);
+	font-size: 25px;
+	font-weight: 500;
+}
+
+img{
+	border-radius: 5px;
+}
+
+.footer{
+	background: -webkit-linear-gradient(135deg, rgb(127, 0, 255), rgb(111, 0, 222));
+	background: -moz-linear-gradient(135deg, rgb(127, 0, 255), rgb(111, 0, 222));
+	background: linear-gradient(135deg, rgb(127, 0, 255), rgb(111, 0, 222));
+}
+
+.container{
+	width: 1250px;
+	margin: 0 auto; 
+}
+
+/*header*/
+
+.header > .container > h1{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.wrapper{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.wrp__collumn__img{
+	margin-top: -15px;
+	margin-left: 50px;
+}
+
+.wrp__collumn__img > img{
+	margin-top: 25px;
+}
+
+/*about__me*/
+
+.aboute__me{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+.wrapper__about{
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper__about > h1{
+	text-align: center;
+}
+
+.wrapper__about > p{
+	margin-top: 25px;
+	text-align: justify;
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.wrapper__about > img{
+	width: 480px;
+	height: 640px;
+	margin: 0 auto;
+}
+
+/*cont*/
+
+.cont{
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+
+.cont > .container > h1{
+	text-align: center;
+}
+
+.wrp__cont{
+	margin-top: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.wrp__cont > svg{
+	margin-left: 50px;
+	transition: all ease 0.8s;
+}
+
+.wrp__cont > svg > path:hover{
+	fill: #7F00FF;
+}
+
+/*footer*/
+
+.footer{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #fff;
+	text-align: center;
+}
